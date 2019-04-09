@@ -38,3 +38,18 @@
   .fab { display: none; }
 }
 
+@media screen and (max-width: 980px) {
+  .footer-contact-page {
+    text-align: center;
+  }
+  .footer-contact-page li {
+    padding-left: 0 !important;
+  }
+
+  .footer-contact-page .icons-bordered {
+    width: 100px;
+    margin: 0 auto;
+  }
+}
+
+

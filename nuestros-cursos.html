@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Quienes somos | Adecorar</title>
+  <title>Nuestros Cursos | Adecorar</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
@@ -28,25 +28,8 @@
         <li><a href="index.html">Inicio</a></li>
         <li><a href="quienes-somos.html">Quienes Somos</a></li>
         <li><a href="nuestros-cursos.html">Nuestros Cursos</a></li>
-				<li><a href="galeria.html">Galería</a></li>
+		<li><a href="galeria.html">Galería</a></li>
         <li><a class="button small" href="contacto.html">Contacto</a></li>
-        <!-- <li>
-              <a href="#" class="icon fa-angle-down">Dropdown</a>
-              <ul>
-                <li><a href="#">Option One</a></li>
-                <li><a href="#">Option Two</a></li>
-                <li><a href="#">Option Three</a></li>
-                <li>
-                  <a href="#">Submenu</a>
-                  <ul>
-                    <li><a href="#">Option One</a></li>
-                    <li><a href="#">Option Two</a></li>
-                    <li><a href="#">Option Three</a></li>
-                    <li><a href="#">Option Four</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li> -->
       </ul>
     </nav>
 
@@ -59,12 +42,19 @@
         <header>
             <h1 class="text-center">Conoce nuestros Cursos</h1>        
         </header>
+
+        <p>
+            Nuestros cursos son dictados por instructores profesionales, 
+            con una amplia experiencia en la aplicación de las
+            diferentes técnicas que se dictan en los cursos. 
+            Usted adquiere los 3 cursos por un único precio.
+        </p>       
              
         <div id="fancy-card">
             <div class="split">
                 <div class="card-container">
                     <div class="card">
-                        <a href="hottub">
+                        <a id="fancy-card-actionator1" href="hottub">
                             <div class="card--display">
                                 <i class="material-icons">Porcelanato Líquido</i>
                                 <h2>Aprende a crear increíbles porcelanatos.</h2>
@@ -75,8 +65,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie
                                     pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit
                                     bibendum.
-                                </p>
-                                <p class="link">Click to see project</p>
+                                </p>                                
                             </div>
                         </a>
                         <div class="card--border"></div>
@@ -85,7 +74,7 @@
             
                 <div class="card-container">
                     <div class="card">
-                        <a href="hottub">
+                        <a id="fancy-card-actionator2" href="hottub">
                             <div class="card--display">
                                 <i class="material-icons">Cristalización de alto desempeño</i>
                                 <h2>Domina esta técnica de decoración de vanguardia.</h2>
@@ -96,8 +85,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie
                                     pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit
                                     bibendum.
-                                </p>
-                                <p class="link">Click to see project</p>
+                                </p>                                
                             </div>
                         </a>
                         <div class="card--border"></div>
@@ -106,7 +94,7 @@
             
                 <div class="card-container">
                     <div class="card">
-                        <a href="hottub">
+                        <a id="fancy-card-actionator3" href="hottub">
                             <div class="card--display">
                                 <i class="material-icons">Paredes 3D</i>
                                 <h2>Dale vida a los espacios interiores.</h2>
@@ -117,8 +105,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie
                                     pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit
                                     bibendum.
-                                </p>
-                                <p class="link">Click to see project</p>
+                                </p>                                
                             </div>
                         </a>
                         <div class="card--border"></div>
@@ -126,7 +113,16 @@
                 </div>
             </div>
         </div>
-    </div>
+        <p>
+            En los cursos se hace énfasis particularmente en la parte práctica.
+            En lugar de dedicar mucho del tiempo que usted
+            dispone para el curso en teoría, nos centramos en que usted practique
+            y adquiera experiencia. No se requiere ningún tipo
+            de conocimiento previo, usted aprenderá totalmente desde cero,
+            además aunque finalice el curso usted podrá contactarnos
+            con respecto a cualquier duda o pregunta que tenga.
+        </p>
+    </div>    
   </section>
 
   <!-- Footer -->
@@ -182,6 +178,17 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    document.querySelector('#fancy-card-actionator1').addEventListener('click', function (event) {
+        event.preventDefault();
+    });
+    document.querySelector('#fancy-card-actionator2').addEventListener('click', function (event) {
+        event.preventDefault();
+    });
+    document.querySelector('#fancy-card-actionator3').addEventListener('click', function (event) {
+        event.preventDefault();
+    });
+  </script>
 
 </body>
 

@@ -41,7 +41,17 @@
 .swiper-container {
   height: 35em;
 }
-
+/* MAIN GALLERY */
+.main-gallery .box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main-gallery .box img {
+  width: 20%;
+  height: 100%;
+  margin: 10px;
+}
 /* STUDENTS PROJECTS GALLERY */
 .swiper-container {
   background-color: #000;

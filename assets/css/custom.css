@@ -1,6 +1,9 @@
 #statistics {
   background-color: #229dbf;
 }
+.font-normal {
+  font-weight: normal !important;
+}
 
 .center-h {
   margin: 0 auto;
@@ -8,6 +11,10 @@
 
 .text-center {
   text-align: center;
+}
+
+.text-accent {
+  color: #053949;
 }
 
 .text-testimonials {

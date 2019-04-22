@@ -7,7 +7,18 @@
     box-sizing: border-box;
 }
 h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
+}
+@media screen and (max-width: 480px) {
+    .material-icons {
+        font-size: 1.1em !important;
+    }
+    h2 {
+        font-size: 1em !important;
+    }
+    p {
+        font-size: 0.9em;
+    }
 }
 .card-container {
     flex: 300px;

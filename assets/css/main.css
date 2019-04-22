@@ -4498,7 +4498,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #3b3b3b;
+		background: #053949;
 		box-shadow: none;
 		color: rgba(255, 255, 255, 0.75);
 		height: 100%;

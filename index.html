@@ -425,7 +425,6 @@
 					LocalSlide: VueAwesomeSwiper.swiperSlide,
 				},
 				data: {
-					message: 'Hi from Vue',
 					optionSwiper: {
 						slidesPerView: 1,
 						spaceBetween: 30,
@@ -447,20 +446,9 @@
 				computed: {
 					swiper() {
 						return this.$refs.swiper.swiper
-					},
-				},
-				methods: {
-					onSetTranslate() {
-						console.log('onSetTranslate')
 					}
-				},
-				mounted() {
-					console.log('this is swiper A instance object', this.swiper)
 				}
 			})
 		</script>
-
-		<!-- FAB JS -->
-
 	</body>
 </html>
